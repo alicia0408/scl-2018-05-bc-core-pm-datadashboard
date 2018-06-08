@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Data Dashdashboard
 
 
