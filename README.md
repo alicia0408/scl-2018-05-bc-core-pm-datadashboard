@@ -2,14 +2,9 @@
 
 
 
-#### 1) Definición del producto
-=======
-      
-  #Data Dashboard    
+#### 1) Definición del producto:
      
-#### 1) Definicion del producto
->>>>>>> e2caf184c824f8e71f3165e87bcf55d3c20a6909
-Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. 
+      Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. 
  
  Los objetivos de las Training Managers (TMs) con relacion al producto es poder ver la data de manera anscendente o descendente de las estudiantes, un buscador de estudiantes,que se puedan ver todas las notas en lista, de manera general que la data se vea organizada y que se pueda mostrar de la mejor forma para asi poder ejecutar la toma de decisiones de la mejor manera. 
  
