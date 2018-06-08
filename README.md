@@ -28,6 +28,16 @@ Nuestro proceso de diseño se centro primero investigando las necesidades y prob
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
 
+
+![whatsapp image 2018-06-08 at 09 24 10 1](https://user-images.githubusercontent.com/39088630/41179128-991ab46a-6b37-11e8-8907-dc52f4a8eac2.jpeg)
+
+![whatsapp image 2018-06-08 at 09 24 10 2](https://user-images.githubusercontent.com/39088630/41179140-a3edf276-6b37-11e8-98ad-a72fc32a693f.jpeg)
+
+![whatsapp image 2018-06-08 at 09 24 10 3](https://user-images.githubusercontent.com/39088630/41179143-a92ba184-6b37-11e8-9b6c-c3c02e9bb432.jpeg)
+
+![whatsapp image 2018-06-08 at 09 24 10](https://user-images.githubusercontent.com/39088630/41179150-ad927aea-6b37-11e8-9cc8-6a97f315e42b.jpeg)
+
+
 Por medios de los siguientes link pueden apreciar un adelanto de nuestro producto  en blanco y negro: 
 
 (https://www.figma.com/file/RyqX121QFARjXHTuoPnpLeva/blackwhite)
