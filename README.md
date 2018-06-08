@@ -28,13 +28,24 @@ Nuestro proceso de diseño se centro primero investigando las necesidades y prob
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
 
-Por medios de los siguientes link pueden apreciar un adelanto de nuestro producto : 
+Por medios de los siguientes link pueden apreciar un adelanto de nuestro producto  en blanco y negro: 
 
 (https://www.figma.com/file/RyqX121QFARjXHTuoPnpLeva/blackwhite)
 
 (https://www.figma.com/file/RHk0Giv0BAATcsE6RcTon6wW/Untitled)
 
 (https://www.figma.com/file/082RsHWSYNaC5lwVsggkmGUm/Untitled)
+
+Tambien lo puedes apreciar con los colores de la empresa:
+
+(https://www.figma.com/file/ejii5bGggEt9dQb1VlwXtmUT/Untitled)
+
+(https://www.figma.com/file/ecvaoumAYg7VQljQX12m3LOC/Untitled)
+
+(https://www.figma.com/file/ejii5bGggEt9dQb1VlwXtmUT/Untitled)
+
+
+
 
 
 
