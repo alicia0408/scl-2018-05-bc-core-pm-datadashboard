@@ -1,11 +1,13 @@
-# Data Dashdashboard
-
-
+# Data Dashdashboar
 
 #### 1) Definición del producto:
      
       Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. 
  
+
+### Definición del producto:
+    
+
  Los objetivos de las Training Managers (TMs) con relacion al producto es poder ver la data de manera anscendente o descendente de las estudiantes, un buscador de estudiantes,que se puedan ver todas las notas en lista, de manera general que la data se vea organizada y que se pueda mostrar de la mejor forma para asi poder ejecutar la toma de decisiones de la mejor manera. 
  
  Por medio de entrevista realizada a nuestra Training Manager Valentina Smith,la cliente espera por medio de este producto:
