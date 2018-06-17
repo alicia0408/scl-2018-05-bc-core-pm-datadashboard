@@ -2,8 +2,9 @@
 
 
 
-#### 1) Definición del producto
-Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. 
+#### 1) Definición del producto:
+     
+      Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. 
  
  Los objetivos de las Training Managers (TMs) con relacion al producto es poder ver la data de manera anscendente o descendente de las estudiantes, un buscador de estudiantes,que se puedan ver todas las notas en lista, de manera general que la data se vea organizada y que se pueda mostrar de la mejor forma para asi poder ejecutar la toma de decisiones de la mejor manera. 
  
@@ -31,6 +32,16 @@ Accede generalmente a estos datos una vez por dia o dia por medio,el producto en
 Nuestro proceso de diseño se centro primero investigando las necesidades y problemas de nuestra clientes,para poder hacer una interfaz que se adapte a lo que ella verdaderamente necesita y facilite su trabajo. 
 
 #### 2) Sketch de la solución (prototipo de baja fidelidad)
+
+
+![whatsapp image 2018-06-08 at 09 24 10 1](https://user-images.githubusercontent.com/39088630/41179128-991ab46a-6b37-11e8-8907-dc52f4a8eac2.jpeg)
+
+![whatsapp image 2018-06-08 at 09 24 10 2](https://user-images.githubusercontent.com/39088630/41179140-a3edf276-6b37-11e8-98ad-a72fc32a693f.jpeg)
+
+![whatsapp image 2018-06-08 at 09 24 10 3](https://user-images.githubusercontent.com/39088630/41179143-a92ba184-6b37-11e8-9b6c-c3c02e9bb432.jpeg)
+
+![whatsapp image 2018-06-08 at 09 24 10](https://user-images.githubusercontent.com/39088630/41179150-ad927aea-6b37-11e8-9cc8-6a97f315e42b.jpeg)
+
 
 Por medios de los siguientes link pueden apreciar un adelanto de nuestro producto  en blanco y negro: 
 
