@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+.container-fluid{
+    width: 100%;
+    padding: 2em;
+
+}
+img {
+    box-align: center;
+}
+
+footer{
+    padding:2%;
+    text-align: left;
+    background-color: black;
+    text-align: center;
+    color: white
+}
