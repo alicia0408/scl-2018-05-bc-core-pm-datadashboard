@@ -17,8 +17,18 @@ function imprUser(){
     }
 }
 function imprCort(){
-    for(i=0; i< data.cortes.length;i++){
+    const cohortesLim = data.cortes.filter(cohorte => {
+        return cohorte.id.indexOf("lim")>=0;
+    });
+    for(i=0; i< cohortesLim.length;i++){
         // console.log(data.cortes[i].id);
+        let DataCortes = (cohortesLim[i].id);
+        console.log(DataCortes);
+        
+        
+
+      // hacer un evento click y 
+        
     }
 }
 function imprProgress(){
