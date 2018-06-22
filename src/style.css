@@ -21,3 +21,28 @@ footer{
     text-align: center;
     color: white
 }
+.btn-outline-success{
+    color: black;
+    border-color: black
+}
+.grafico {
+    position: relative; /* IE is dumb */
+    width: 100%;
+    border: 1px solid rgb(165, 159, 159);
+    padding: 1px;
+
+    }
+    .grafico .barra {
+    width: 80%;
+    display: block;
+    position: relative;
+    background:rgb(255, 229, 33);
+    
+    text-align: center;
+    color: #333;
+    height: 2em;
+    line-height: 2em;
+    }
+    .grafico .barra span {
+    position: absolute; left: 1em;
+    }
