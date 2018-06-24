@@ -1,4 +1,3 @@
-
 function imprUser(user) {
     var datos = document.querySelector('#datos');
     datos.innerHTML = '';
