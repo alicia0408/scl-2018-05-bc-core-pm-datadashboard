@@ -8,7 +8,7 @@ function loadusers() {
         // maneja la data se crea una variable fuera de la funcion y los valores se guardan en un objeto//
         .then(function (valores) {
             data.user = valores;
-            console.log('data.user es :',data.user);
+           // console.log('data.user es :',data.user);
             // para imprimirlo cuando se obtenda la informacion//
             loadcortes();
         });
@@ -37,30 +37,40 @@ function loadprogress() {
         // maneja la data
         .then(function (valores) {
             data.progress = valores;
-            console.log('data.progress es :', data.progress);
+         //   console.log('data.progress es :', data.progress);
             imprProgress();
             imprUser(computeUsersStats(data.user, data.progress, data.cortes));
         });
 }
 function computeUsersStats (user, progress, courses)// todos los usrs ordenados
 {
-    var datos = [];
     for (let i = 0; i < user.length; i++) {
         user[i].stats={};
-        for (var key in progress) {
-            if (key == user[i].id) {
-                if (progress[key].intro) {
-                    let percent = 0
-                    if (progress[key].intro.percent)
-                        percent = progress[key].intro.percent;
-                    let llaves = getformat(progress[key].intro);
-                    user[i].stats = { percent: percent, exercises: llaves.exercises, reads: llaves.reads, quizzes: llaves.quizzes };
-                    //datos.push(user[i]);
-                }
+            for (var key in progress) {
+                    if (key == user[i].id){
+                        if (progress[key].intro) {
+                            // console.log(progress[key]);
+                                    let percent = 0
+                                    if (progress[key].intro.percent)
+                                        percent = progress[key].intro.percent;
+                                    let llaves = getformat(progress[key].intro);
+                                    user[i].stats = { percent: percent, exercises: llaves.exercises, reads: llaves.reads, quizzes: llaves.quizzes };
+                        }
+                        else{
+                            var cursos = { exercises: {}, reads: {}, quizzes: {} };
+                            cursos.exercises = { completed: 0, total: 0, percent: 0 };
+                            cursos.reads = { completed: 0, total: 0, percent: 0 };
+                            cursos.quizzes = { completed: 0, total: 0, percent: 0, scoreSum: 0, scoreAvg: 0 };
+                            user[i].stats = cursos;
+                        }
+                    }
+                
             }
-        }
+           
     }
-    console.log('data Unida :', user);
+    filterData('lim');
+    filterData('scl');
+  //console.log('data Unida :', user);
     return user;
 }
 function getformat(intro) {
@@ -120,9 +130,12 @@ function sortUsers(users, orderBy, orderDirection) {
 }
 
 function filterUsers(users, filterBy) {
-    var datos = [];
-
-    return datos;
+    var users = users.name;
+users.sort(function (a, b) {
+  return a.localeCompare(b);
+  
+});
+console.log(filterUsers);
 }
 
 function processCohortData({ cohortData, orderBy, orderDirection, filterBy }) {
