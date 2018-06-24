@@ -249,3 +249,17 @@ footer{
 .default-back-color{
 	background-color: #ffe521 !important;
 }
+
+@media (max-width: 576px) { 
+	.primary
+	{
+		display: inline;
+	}
+	.secundary{
+		display: none;
+	}
+	.ln-correct-50{
+		max-width: 50% !important;
+	}
+ }
+

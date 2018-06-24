@@ -9,17 +9,17 @@ function imprUser(user) {
         
         datos.innerHTML +=`
             <tr class="row col-md-12 t-a-c" >
-                <th class="col-md-2">${TodoUser.name}</th>
-                <td class="col-md-1">${TodoUser.stats.percent + " % "}</td>
-                <td class="col-md-1">${TodoUser.stats.exercises.total}</td>
-                <td class="col-md-1">${TodoUser.stats.exercises.completed}</td>
-                <td class="col-md-1">${TodoUser.stats.exercises.percent + " % "}</td>
-                <td class="col-md-1">${TodoUser.stats.reads.total}</td>
-                <td class="col-md-1">${TodoUser.stats.reads.completed}</td>
-                <td class="col-md-1">${TodoUser.stats.reads.percent + " % "}</td>
-                <td class="col-md-1">${TodoUser.stats.quizzes.total}</td>
-                <td class="col-md-1">${TodoUser.stats.quizzes.completed}</td>
-                <td class="col-md-1">${TodoUser.stats.quizzes.percent + " % "}</td>
+                <th class="col-md-2 ln-correct-50">${TodoUser.name}</th>
+                <td class="col-md-1 ln-correct-50">${TodoUser.stats.percent + " % "}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.exercises.total}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.exercises.completed}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.exercises.percent + " % "}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.reads.total}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.reads.completed}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.reads.percent + " % "}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.quizzes.total}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.quizzes.completed}</td>
+                <td class="col-md-1 secundary">${TodoUser.stats.quizzes.percent + " % "}</td>
 
             </tr>
          `;
