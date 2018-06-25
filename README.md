@@ -61,6 +61,10 @@ Tambien lo puedes apreciar con los colores de la empresa:
 
 (https://www.figma.com/file/ejii5bGggEt9dQb1VlwXtmUT/Untitled)
 
+Pagina para visualizar el datadashboard en progreso:
+
+https://milelym.github.io/scl-2018-05-bc-core-pm-datadashboard/src/index.html
+
 
 
 

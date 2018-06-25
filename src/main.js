@@ -1,5 +1,3 @@
-
-
 function imprUser(user) {
     var datos = document.querySelector('#datos');
     datos.innerHTML = '';
@@ -43,13 +41,13 @@ function filterData(search) {
     const cohortes = data.cortes.filter(cohorte => {
         return cohorte.id.indexOf(search) >=0;
     });
-    for (i = 0; i < cohortes.length; i++) {
+   /* for (i = 0; i < cohortes.length; i++) {
         // console.log(data.cortes[i].id);
         let DataCortes = (cohortes[i].id);
        
       // hacer un evento click y 
     }
-    console.log(search+':',cohortes);
+    console.log(search+':',cohortes);*/
 
 }
 function imprProgress() {
