@@ -96,7 +96,8 @@ function getformat(intro) {
                         cursos.quizzes.completed++;
                         if (intro.units[key].parts[keyparts].score)
                             cursos.quizzes.scoreSum += intro.units[key].parts[keyparts].score;
-                    }
+       
+
 
                     cursos.quizzes.total++;
 
@@ -120,15 +121,7 @@ function getformat(intro) {
         cursos.quizzes.scoreAvg = (cursos.quizzes.scoreSum / cursos.quizzes.completed);
         cursos.quizzes.scoreAvg = parseFloat(cursos.quizzes.scoreAvg.toFixed(2));
     }
-    return cursos;
-}
-
-function sortUsers(users, orderBy, orderDirection) {
-    var datos = [];
-
-    return datos;
-}
-
+  
 function filterUsers(users, filterBy) {
     var users = users.name;
 users.sort(function (a, b) {
@@ -138,9 +131,11 @@ users.sort(function (a, b) {
 console.log(filterUsers);
 }
 
-function processCohortData({ cohortData, orderBy, orderDirection, filterBy }) {
+function processCohortData(cohortData, orderBy, orderDirection, filterBy) {
     var datos = [];
 
     return datos;
 }
 loadusers();
+    }
+}
