@@ -1,7 +1,7 @@
-let data = {};/*con esta variable luego se llamara en la carpeta main*/
+let data = {};/* con esta variable luego se llamara en la carpeta main*/
 function loadusers() {
     fetch('https://milelym.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json')
-        .then(function (resp) {
+        .then(function(resp) {
             return resp.json();
             //retorna la data
         })
@@ -18,7 +18,7 @@ function loadcortes() {
     fetch('https://milelym.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts.json')
         .then(function (resp) {
             return resp.json();
-            //retorna la data
+            // retorna la data
         })
         // maneja la data
         .then(function (valores) {
@@ -32,7 +32,7 @@ function loadprogress() {
     fetch('https://milelym.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/progress.json')
         .then(function (resp) {
             return resp.json();
-            //retorna la data
+            // retorna la data
         })
         // maneja la data
         .then(function (valores) {
@@ -68,9 +68,9 @@ function computeUsersStats (user, progress, courses)// todos los usrs ordenados
             }
            
     }
-    //filterData('lim');
-    //filterData('scl');
-  //console.log('data Unida :', user);
+    // filterData('lim');
+    // filterData('scl');
+  // console.log('data Unida :', user);
     return user;
 }
 function getformat(intro) {
