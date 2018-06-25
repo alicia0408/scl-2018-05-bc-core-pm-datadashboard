@@ -1,3 +1,4 @@
+
 let data = {};/*con esta variable luego se llamara en la carpeta main*/
 function loadusers() {
     fetch('https://milelym.github.io/scl-2018-05-bc-core-pm-datadashboard/data/cohorts/lim-2018-03-pre-core-pw/users.json')
@@ -96,7 +97,8 @@ function getformat(intro) {
                         cursos.quizzes.completed++;
                         if (intro.units[key].parts[keyparts].score)
                             cursos.quizzes.scoreSum += intro.units[key].parts[keyparts].score;
-                    }
+       
+
 
                     cursos.quizzes.total++;
 
@@ -120,15 +122,7 @@ function getformat(intro) {
         cursos.quizzes.scoreAvg = (cursos.quizzes.scoreSum / cursos.quizzes.completed);
         cursos.quizzes.scoreAvg = parseFloat(cursos.quizzes.scoreAvg.toFixed(2));
     }
-    return cursos;
-}
-
-function sortUsers(users, orderBy, orderDirection) {
-    var datos = [];
-
-    return datos;
-}
-
+  
 function filterUsers(users, filterBy) {
     var users = users.name;
 users.sort(function (a, b) {
@@ -144,3 +138,8 @@ function processCohortData({ cohortData, orderBy, orderDirection, filterBy }) {
     return datos;
 }
 loadusers();
+
+
+
+}
+
