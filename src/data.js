@@ -68,8 +68,8 @@ function computeUsersStats (user, progress, courses)// todos los usrs ordenados
             }
            
     }
-    filterData('lim');
-    filterData('scl');
+    //filterData('lim');
+    //filterData('scl');
   //console.log('data Unida :', user);
     return user;
 }
