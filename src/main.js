@@ -1,5 +1,3 @@
-
-        
 Promise.all([
     fetch("../data/cohorts/lim-2018-03-pre-core-pw/users.json"),
     fetch("../data/cohorts/lim-2018-03-pre-core-pw/progress.json"),
