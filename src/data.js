@@ -1,4 +1,3 @@
-
 function computeUsersStats (user, progress, courses)// todos los usrs ordenados
 {
     for (let i = 0; i < user.length; i++) {
@@ -101,37 +100,3 @@ function processCohortData({ cohortData, orderBy, orderDirection, filterBy }) {
     return datos;
 }
 loadusers();
-function imprCort() {
-    const cohortesLim = data.cortes.filter(cohorte => {
-        return cohorte.id.indexOf('lim') >= 0;
-    });
-    for (i = 0; i < cohortesLim.length; i++) {
-        // console.log(data.cortes[i].id);
-        let DataCortes = (cohortesLim[i].id);
-        //console.log(DataCortes);
-        // hacer un evento click y 
-    }
-}
-function filterData(search) {
-    const cohortes = data.cortes.filter(cohorte => {
-        return cohorte.id.indexOf(search) >= 0;
-    });
-    /* for (i = 0; i < cohortes.length; i++) {
-         // console.log(data.cortes[i].id);
-         let DataCortes = (cohortes[i].id);
-        
-       // hacer un evento click y 
-     }
-     console.log(search+':',cohortes);*/
-
-}
-function imprProgress() {
-    for (let key in data.progress) {// el for recorre el progress que es un objeto de objetos y key da acceso al segundo obj//
-        // console.log(key,data.progress[key]);// llave y su valor como referencia //
-        if (data.progress[key].intro) {
-            // console.log(data.progress[key].intro.percent);  
-        } else {
-            // console.log('no esxite:',key);
-        }
-    }
-}
