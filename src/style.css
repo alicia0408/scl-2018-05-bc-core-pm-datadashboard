@@ -19,6 +19,7 @@ footer{
     text-align: center;
     color: white
 }
+/* solo para guiarme de como hacer el media*/
 @media (min-width: 576px) {  }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
@@ -260,6 +261,12 @@ footer{
 	}
 	.ln-correct-50{
 		max-width: 50% !important;
+	}
+	.ml-20{
+		margin-right: 0%!important;
+	}
+	.btn{
+		padding: 0% !important;
 	}
  }
 
