@@ -1,16 +1,28 @@
 # Data Dashdashboar
 
-#### 1) Definición del producto:
      
-      Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje. 
- 
+      ### Definición del producto:
 
-### Definición del producto:
-    
+Este producto va dirigido a las Training Managers (TMs) de Laboratoria hacen un gran trabajo al analizar la mayor cantidad de datos posibles respecto al progreso de las estudiantes para apoyarlas en su aprendizaje.Los objetivos de las Training Managers (TMs) con relacion al producto es poder ver la data de manera anscendente o descendente de las estudiantes, un buscador de estudiantes,que se puedan ver todas las notas en lista, de manera general que la data se vea organizada y que se pueda mostrar de la mejor forma para asi poder ejecutar la toma de decisiones de la mejor manera. 
 
- Los objetivos de las Training Managers (TMs) con relacion al producto es poder ver la data de manera anscendente o descendente de las estudiantes, un buscador de estudiantes,que se puedan ver todas las notas en lista, de manera general que la data se vea organizada y que se pueda mostrar de la mejor forma para asi poder ejecutar la toma de decisiones de la mejor manera. 
- 
- Por medio de entrevista realizada a nuestra Training Manager Valentina Smith,la cliente espera por medio de este producto:
+Se realizo una entrevista a nuestra cliente donde se llevo acabo una serie de preguntas para poder entender mas el producto que necesitaba y el objetivo que debia cumplir, las preguntas realizadas con sus respectivas respuestas fueron:
+
+*¿Que problemas mas repetitivos tienes con el producto actual?
+-Respuesta:"En general no es funcionable,visualizo todo en una plantilla de Excel,sin estar organizado".
+
+*¿Que consideras que se le podria mejorar?
+-Respuesta:"Mostrar la data de manera ascendente y descendente, un buscador de alumna,que se puedan ver todas las notas en lista".
+
+*¿Como te gustaria que fuese en temas de diseño?
+-Respuesta:"Me gustaria que fuese minimalista,debe tener los colores de Laboratoria,que no tenga que utilizar tanto click para poder acceder a los datos y los graficos de preferencia circulares".
+
+*¿Que nivel de avance te gustaria visualizar?
+-respuesta:"Un nivel del 70% y tambien las alumnas que esten por debajo del 50%".
+
+*¿Que quisieras poder apreciar en el producto a simple vista? y ¿por que?
+-Respuesta:"Ver la data  organizada y mostrarla de la mejor forma. buscar la data sirve para la toma de decisiones".
+
+Por medio de la entrevista realizada a nuestra Training Manager Valentina Smith,la cliente espera por medio de este producto:
  
  * Acceso rapido a los datos.
  
